@@ -1,5 +1,7 @@
 #!/bin/env python
 
+# simple public IP extractor
+
 from urllib2 import urlopen
 import smtplib, os, getpass
 my_ip = urlopen('http://ip.42.pl/raw').read()
